@@ -1,0 +1,47 @@
+{
+  "name": "toasavi",
+  "version": "1.0.0",
+  "description": "A lightweight and customizable toast notification library for web applications",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module"
+  ,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "toast",
+    "notification",
+    "alert",
+    "message",
+    "popup",
+    "ui",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/toasavi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/toasavi/issues"
+  },
+  "homepage": "https://github.com/yourusername/toasavi#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "rollup": "^4.41.1",
+    "ts-jest": "^29.3.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
